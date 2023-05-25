@@ -1,0 +1,114 @@
+/* menu */
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #d6d5a8;
+}
+nav ul li a:active{
+	color: #51557e;
+}
+nav ul li:hover {
+	background-color: #2c3849;
+}
+nav ul li.prout {
+	background-color: #51557e;
+}
+.center{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+/* body */
+
+div.second-body{
+	margin-right: 100px;
+	margin-left: 100px;
+	margin: 10px;
+}
+
+body{
+	margin-right: 100px;
+	margin-left: 100px;
+	font-family: 'amaranteregular';
+	padding: 10px;
+}
+
+/* écriture*/
+
+h1{
+	margin: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+	font-size: 70px;
+	text-align: center;
+}
+p{
+	margin: 10px;
+	border: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+	text-align: center;
+}
+@font-face {
+    font-family: 'amaranteregular';
+    src: url('../font/amarante-regular-webfont.woff2') format('woff2'),
+         url('../font/amarante-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* ... coullissant */
+.center{
+	overflow: overlay;
+	border-collapse: collapse;
+}
+.center_table{
+	align-content: center;
+}
+
+/* design */
+.center::-webkit-scrollbar {
+  width: 12px; 
+}
+
+.center::-webkit-scrollbar-track {
+  background: #d6d5a8; 
+}
+
+.center::-webkit-scrollbar-thumb {
+  background-color: #51557e; 
+  border-radius: 5px; 
+  border: 3px solid #d6d5a8; 
+}
+
+.menu-nav{
+	background-color: #1b2430;
+}
+
+div.second-body {
+	background-color: #816797;
+}
+article.presentation{
+	margin: 70px;
+	margin-left: 70px;
+	margin-right: 70px;
+	padding: 10px;
+}
+.center{
+	background-color: #d6d5a8;
+}
+.game{
+	padding: 30px;
+	background-color: #51557e;
+}
+body{
+	color: #d6d5a8;
+	background-attachment:fixed;
+}
